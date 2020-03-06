@@ -1,0 +1,19 @@
+import boto3
+import datetime
+import threading
+
+from datetime import date, datetime, timedelta, timezone
+date1 = date.today()
+
+# future expiry dates
+two_weeks_forward = date1 + timedelta(days=14)
+
+date2 = input('Enter Expiry Date please')
+
+if 'date2' >= two_weeks_forward;
+    print('Hello World')
+
+else
+    print('Well Done')
+
+
