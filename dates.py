@@ -76,7 +76,7 @@ if str(date1) < str(date_expiry):
     from twilio.rest import Client
 
 # the following line needs your Twilio Account SID and Auth Token
-client = Client("AC2ed7948267a1d2bea808e27c5b4c4aad", "c22ca9e16066bae3dc6667f4033465bc")
+client = Client("ACXXXXXX", "cXXXXXXX")
 
 # change the "from_" number to your Twilio number and the "to" number
 # to the phone number you signed up for Twilio with, or upgrade your
